@@ -1,0 +1,20 @@
+Schemas:
+    contact:
+        name
+        number
+        email
+        uID:ref-user
+    user:
+        name
+        email
+        user_name
+        password
+routes:
+    signin post
+    login post
+    create new contact post
+    get contact by id(name) get
+    get all contact get
+    update contact put
+    delete contact delete
+
